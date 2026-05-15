@@ -77,6 +77,7 @@ GameObject:
   - component: {fileID: 7046181163851587547}
   - component: {fileID: 6515881294174611465}
   - component: {fileID: 1729624367813134894}
+  - component: {fileID: 7707280682783906842}
   m_Layer: 0
   m_Name: SardineSkinWithDemoScript
   m_TagString: Untagged
@@ -94,7 +95,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -24.89, y: 12.73, z: -29.933104}
-  m_LocalScale: {x: 20, y: 20, z: 20}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6092575793030025250}
@@ -372,6 +373,25 @@ MonoBehaviour:
   speed: 5
   rotateSpeed: 2.5
   target: {fileID: 0}
+--- !u!114 &7707280682783906842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537718717970794339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24c8b6f23ff9b184ba2e17411aa109fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 2
+  rotationSpeed: 10
+  minWanderInterval: 2
+  maxWanderInterval: 5
+  boundsMin: {x: -100, y: 22, z: -120}
+  boundsMax: {x: 100, y: 10, z: 100}
+  steeringSmoothing: 3
 --- !u!1 &1089084348701090894
 GameObject:
   m_ObjectHideFlags: 0
