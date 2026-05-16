@@ -64,7 +64,6 @@ Assets/External Assets/Sardine/Scripts/
  SardineCharacter.cs
  SardineUserController.cs
 Assets/Scripts/
- CausticLight.cs
  Player/PlayerController.cs
  WaterTrigger/UnderwaterEffect.cs
  Waypoint/UnderwaterRandomMover.cs
